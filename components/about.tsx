@@ -19,31 +19,27 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I've been learning programming for more than two years now, diving into both frontend and backend development.
+        My main focus is on Frontend work, especially using React and Redux.
+        <br/><br/>
+        I've got a bunch of projects built with React and Redux that you can check out on my GitHub.
+        <br/><br/>
+        Back in university, I completed a course on "Object-Oriented Programming" using C++, which gave me a solid understanding of coding concepts.
+        <br/><br/>
+        Working with others is something I enjoy – I once led a team of three on a project using tools like Jira and GitHub for task management.
+        As the team leader, I assigned tasks, tracked progress, and made sure everything ran smoothly.
+        <br/><br/>
+        Recently, I tackled a cool personal project where I recreated a live website using React with TypeScript and Redux.
+        I designed the user interface to be user-friendly and also made sure all the interactive parts worked.
+        <br/><br/>
+        I had commercial experience in one Lviv company. There I
+        was working in team, creating increment to sites and mobile
+        apps and communicated with client.
+        <br/><br/>
+        I'm excited to use my skills and experience for new challenges.
+        My passion for programming and ability to work well with others make me ready for whatever comes next.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
     </motion.section>
   );
 }

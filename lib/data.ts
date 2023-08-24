@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Staff from "../assets/photo_of_sites/staff.png";
+import Habibi from "../assets/photo_of_sites/habibi.png";
 
 export const links = [
   {
@@ -22,14 +21,6 @@ export const links = [
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
   },
 ] as const;
 
@@ -62,46 +53,35 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "eCommerce project",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This eCommerce pet-project utilizes React, Redux, and TypeScript to enhance skills, handle real tasks, improve functionality, and implement responsive styles.",
+    tags: ["React", "Redux", "TypeScript", "CSS"],
+    imageUrl: Staff,
+    link: "https://yurasab.github.io/staff-test-project/"
   },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Habibi shop",
+  //   description:
+  //     "This project was created for redux and styles practice.",
+  //   tags: ["React", "JavaScript", "CSS", "Redux", "API"],
+  //   imageUrl: Habibi,
+  //   link: "https://yurasab.github.io/redux-training/"
+  // },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "SSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Redux Toolkit",
+  "Git",
+  "GitHub",
+  "Figma",
+  "Canva",
+  "Jira",
 ] as const;

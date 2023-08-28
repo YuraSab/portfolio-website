@@ -2,8 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Staff from "../assets/photo_of_sites/staff.png";
-import Habibi from "../assets/photo_of_sites/habibi.png";
+import eCommerce from "../assets/photo_of_sites/eCommerce.png";
 
 export const links = [
   {
@@ -56,9 +55,11 @@ export const projectsData = [
     title: "eCommerce project",
     description:
       "This eCommerce pet-project utilizes React, Redux, and TypeScript to enhance skills, handle real tasks, improve functionality, and implement responsive styles.",
-    tags: ["React", "Redux", "TypeScript", "CSS"],
-    imageUrl: Staff,
-    link: "https://yurasab.github.io/staff-test-project/"
+    tags: ["React", "Redux", "TypeScript", "CSS", "Responsive"],
+    // imageUrl: Staff,
+    imageUrl: eCommerce,
+    // link: "https://yurasab.github.io/staff-test-project/"
+    link: "https://yurasab.github.io/ecom-project/#/male"
   },
   // {
   //   title: "Habibi shop",
